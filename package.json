@@ -1,5 +1,5 @@
 {
-  "name": "pull-it-off-basic",
+  "name": "@xchanin/pull-it-off-basic",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -8,6 +8,10 @@
     "test": "ng test",
     "deploy": "npm run build && npm publish --access public",
     "build": "npm version patch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xchanin/pull-it-off-basic.git"
   },
   "dependencies": {
     "@angular/animations": "~13.0.0",
