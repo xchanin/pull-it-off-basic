@@ -7,7 +7,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "deploy": "npm run build && npm publish --access public",
-    "build": "ng build && npm version patch"
+    "build": "rimraf node_modules && ng build && npm version patch"
   },
   "repository": {
     "type": "git",
